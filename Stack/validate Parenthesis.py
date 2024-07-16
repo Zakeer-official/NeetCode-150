@@ -13,7 +13,7 @@ class Solution:
                     return False
             else:
                 x.append(i)
-        return True if not x else False
+        return len(x) == 0
 
 
 #Example:
